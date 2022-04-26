@@ -1,0 +1,27 @@
+.my-navbar {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: blue;
+}
+
+.my-navbar ul {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.my-navbar ul li {
+  list-style: none;
+}
+.my-navbar ul li :hover {
+  font-weight: bold;
+}
+
+.my-navbar ul li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+}
